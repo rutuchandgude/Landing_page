@@ -1,5 +1,5 @@
 :root{
-    --primary--color:#10B981;
+    --primary--color:#D400F5;
    
 }
 
@@ -11,7 +11,7 @@ body{
     padding: 0px;
     font: poppins;
 }
-#main{
+#main{      
     width:100%;
     height:50vh;
     position:relative;
@@ -25,7 +25,7 @@ nav{
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: 5px 10px 30px rgba(134, 66, 66, 0.02);
+    box-shadow: 5px 10px 30px rgba(134, 66, 66, 0.09);
     z-index:1;
 }
 .logo img{
@@ -41,7 +41,7 @@ nav{
     margin: 3x;
     padding: 0px 22px;
     display: flex;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
@@ -52,10 +52,10 @@ a{
 
 }
 .hey{
-    color:#39bfbd;
+    color:#D400F5;
     font-weight: 500;
     font-size: 0.9em;
-    border-bottom: 2px solid #39bfbd;
+    border-bottom: 2px solid #D400F5;
 }
 .image{
     width: 500px;
@@ -95,16 +95,16 @@ a{
     justify-content: center;
     align-items: center;
     color:white;
-    background-color: #1db096;
+    background-color: #D400F5;
     border-radius: 20px;
     border-radius: 5px 10px 30px rgba(24,139,119,0.2);
 }
 .resume-btn:hover{
-    background-color: #23cdaf;
+    background-color: #F094F5;
     transition: all ease 0.2;
 }
 .menu li a:hover{
-    background-color: #23cdaf;
+    background-color: #E065EF;
     color:white;
     box-shadow:5px 10px 30px rgba(24,139,119,0.2) ;
     transition: all ease 0.2;
